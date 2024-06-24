@@ -1,0 +1,214 @@
+.sectionBalanced{
+    width: 100%;
+    height: 1000px;
+}
+
+.sectionBalanced_{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 640px;
+    margin-left: 166px;
+    margin-right: 166px;
+    padding-top: 215px;
+}
+
+.sectionBalanced_text{
+    width: 669px;
+}
+
+.sectionBalanced_h2{
+    font-family: $titleFamily;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sectionBalanced_text_h3{
+    font-family: $titleFamily;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionBalanced_text_p{
+    font-family: $secondFontFamily;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionBalanced_text_p2{
+    font-family: $secondFontFamily;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionBalanced_text_buttons{
+    width: 331px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sectionBalanced_text_link{
+    color: $bodytouchcolor;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px) {
+    .sectionBalanced_img{
+        width: 500px;
+        height: 500px;
+    }
+    
+    .sectionBalanced{
+        width: 100%;
+        height: 1300px;
+    }
+    
+    .sectionBalanced_{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 100px;
+        padding-top: 150px;
+
+    }
+    
+    .sectionBalanced_text{
+        width: 532px;
+        margin-bottom: -400px;
+    }
+    
+    .ssectionBalanced_h2{
+        font-family: $titleFamily;
+        font-size: 36px;
+        width: 503px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .sectionBalanced_text_h3{
+        font-family: $titleFamily;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .sectionBalanced_text_p{
+        font-family: $secondFontFamily;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    
+    .sectionBalanced_text_p2{
+        font-family: $secondFontFamily;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+        
+
+    .sectionIa_text_link{
+        color: $bodytouchcolor;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+  
+   
+}
+       
+     
+    
+    /*____TELEPHONE____*/
+    
+    
+    @media only screen and (max-width: 678px){
+        .sectionBalanced_img{
+            width: 350px;
+            height: 250px;
+        }
+        
+        .sectionBalanced{
+            width: 100%;
+            height: 850px;
+        }
+        
+        .sectionBalanced_{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 100px;
+        }
+        
+        .sectionBalanced_text{
+            width: 350px;
+            margin-bottom: -50px;
+        }
+       
+        .sectionBalanced_h2{
+            font-family: $titleFamily;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+        
+        .sectionBalanced_text_h3{
+            font-family: $titleFamily;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        
+        .sectionBalanced_text_p{
+            font-family: $secondFontFamily;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+                    
+        }
+        
+        .sectionBalanced_text_p2{
+            font-family: $secondFontFamily;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        
+        }
+            
+        .sectionIa_text_link{
+            color: $bodytouchcolor;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    
+    }
+
+   
