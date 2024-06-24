@@ -1,0 +1,19 @@
+$primarytextColor: #000000;
+$secondtextColor:#ffffff;
+$bodycolor:#7E8967;
+$bodytouchcolor:#D45A33;
+$titleFamily: 'Roboto', sans-serif;
+$textFamily: 'Red hat text', sans-serif;
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+*{
+    font-family: $secondFontFamily;
+    color: $typoColor
+}
