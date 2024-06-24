@@ -1,0 +1,218 @@
+.sectionTips{
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.sectionTips_container_text_h2{
+    font-family: $titleFamily;
+    font-size: 36px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.sectionTips_{
+    width: 100%;
+    height: 711px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+}
+
+.sectionTips_container{
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+.sectionTips_container_text_h3{
+    font-family: $titleFamily;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionTips_container_text_p{
+    font-size: $secondFontFamily;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionTips_text_button1{
+    display: flex;
+    width: 144px;
+    height: 49px;
+    padding: 17px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border-color: $secondtextColor;
+    background-color: $bodycolor;
+    color: $secondtextColor;
+    font-family: $secondFontFamily;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 750px;
+}
+
+/*____TELEPHONE____*/
+    
+    
+@media only screen and (max-width: 678px){
+    .sectionTips{
+        width: 100%;
+        height: 1300px;
+    }
+    
+    .sectionTips_container_text_h2{
+        font-family: $titleFamily;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .sectionTips_{
+        width: 1400px;
+        height: 711px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 166px;
+        overflow: scroll;
+
+    }
+    
+    .sectionTips_container{
+        margin-right: 50px;
+    }
+    
+    .sectionTips_container_text_h3{
+        font-family: $titleFamily;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .sectionTips_container_text_p{
+        font-size: $secondFontFamily;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .sectionTips_text_button1{
+        display: flex;
+        width: 144px;
+        height: 49px;
+        padding: 17px 54px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border-color: $secondtextColor;
+        background-color: $bodycolor;
+        color: $secondtextColor;
+        font-family: $secondFontFamily;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    
+}
+
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px) {
+    .sectionTips{
+        width: 100%;
+        height: 1300px;
+        overflow: hidden;
+
+    }
+    
+    .sectionTips_container_text_h2{
+        font-family: $titleFamily;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 230px;
+    }
+    
+    .sectionTips_{
+        width: 100%;
+        height: 711px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+        overflow: scroll;
+    }
+    
+    .sectionTips_container{
+        margin-right: 150px;
+        width: 550px;
+        
+    }
+    
+    .sectionTips_container_text_h3{
+        font-family: $titleFamily;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .sectionTips_container_text_p{
+        font-size: $secondFontFamily;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .sectionTips_text_button1{
+        display: flex;
+        width: 144px;
+        height: 49px;
+        padding: 17px 54px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border-color: $secondtextColor;
+        background-color: $bodycolor;
+        color: $secondtextColor;
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+}
