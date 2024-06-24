@@ -1,2 +1,8 @@
 @import 'config/config';
-@import 'views/header';
+@import 'views/home/header';
+@import 'views/home/homeHero' ;
+@import 'views/home/sectionResponsive';
+@import 'views/home/sectionIa';
+@import 'views/home/sectionKitchen';
+@import 'views/home/sectionOrange';
+@import 'views/home/sectionRecipe';

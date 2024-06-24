@@ -1,0 +1,176 @@
+.sectionIa{
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.sectionIa_{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 640px;
+    margin-left: 166px;
+    margin-right: 166px;
+    margin-top: 300px;
+}
+
+.sectionIa_text{
+    width: 669px;
+}
+
+.sectionIa_text_h2{
+    font-family: $titleFamily;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sectionIa_text_h3{
+    font-family: $titleFamily;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionIa_text_p{
+    font-family: $secondFontFamily;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionIa_text_link{
+    color: $bodytouchcolor;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px) {
+.sectionIa_img{
+    width: 567px;
+    height: 500px;
+    margin-bottom: 90px;
+}
+
+.sectionIa{
+    width: 100%;
+    height: 1300px;
+}
+
+.sectionIa_{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.sectionIa_text{
+    width: 532px;
+}
+
+.sectionIa_text_h2{
+    font-family: $titleFamily;
+    font-size: 36px;
+    width: 503px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sectionIa_text_h3{
+    font-family: $titleFamily;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionIa_text_p{
+    font-family: $secondFontFamily;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.sectionIa_text_link{
+    color: $bodytouchcolor;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+    
+}
+   
+ 
+
+/*____TELEPHONE____*/
+
+
+@media only screen and (max-width: 678px){
+
+    .sectionIa_img{
+        width: 350px;
+        height: 250px;
+        margin-bottom: 70px;
+    }
+    
+    .sectionIa{
+        width: 100%;
+        height: 850px;
+    }
+    
+    .sectionIa_{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sectionIa_text{
+        width: 353px;
+    }
+    
+    .sectionIa_text_h2{
+        font-family: $titleFamily;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .sectionIa_text_h3{
+        font-family: $titleFamily;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .sectionIa_text_p{
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    
+    .sectionIa_text_link{
+        color: $bodytouchcolor;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

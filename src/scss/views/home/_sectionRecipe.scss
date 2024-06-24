@@ -1,0 +1,302 @@
+.sectionRecipe{
+    width: 100%;
+    height: 1000px;
+    background-color: $bodycolor;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.sectionRecipe_{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 640px;
+    margin-left: 166px;
+    margin-right: 166px;
+    padding-top: 200px;
+}
+
+.sectionRecipe_text{
+    width: 669px;
+}
+
+.sectionRecipe_h2{
+    font-family: $titleFamily;
+    color: $secondtextColor;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sectionRecipe_text_h3{
+    font-family: $titleFamily;
+    color: $secondtextColor;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionRecipe_text_p{
+    font-family: $secondFontFamily;
+    color: $secondtextColor;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.sectionRecipe_text_button1{
+    display: flex;
+    width: 142px;
+    height: 52px;
+    padding: 17px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border-color: $secondtextColor;
+    font-family: $secondFontFamily;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+/*____TELEPHONE____*/
+    
+    
+    @media only screen and (max-width: 678px){
+        .sectionRecipe_img{
+            width: 350px;
+            height: 250px;
+        }
+        
+        .sectionRecipe{
+            width: 100%;
+            height: 850px;
+        }
+        
+        .sectionRecipe_{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 100px;
+        }
+        
+        .sectionRecipe_text{
+            width: 350px;
+            margin-bottom: -50px;
+        }
+       
+        .sectionRecipe_h2{
+            font-family: $titleFamily;
+            color: $secondtextColor;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+        
+        .sectionRecipe_text_h3{
+            font-family: $titleFamily;
+            color: $secondtextColor;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        
+        .sectionRecipe_text_p{
+            font-family: $secondFontFamily;
+            color: $secondtextColor;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+                    
+        }
+        
+            
+        .sectionRecipe_text_button1{
+            display: flex;
+            width: 144px;
+            height: 49px;
+            padding: 17px 54px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 8px;
+            border-color: $secondtextColor;
+            font-family: $secondFontFamily;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            cursor: pointer;
+        
+        }
+    
+    
+    }
+
+    /*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px) {
+    .sectionRecipe_img{
+        width: 530px;
+        height: 490px;
+        margin-bottom:70px ;
+    }
+    
+    .sectionRecipe{
+        width: 100%;
+        height: 1300px;
+    }
+    
+    .sectionRecipe_{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        padding-top: 150px;
+
+    }
+    
+    .sectionRecipe_text{
+        width: 532px;
+    }
+    
+    .sectionRecipe_h2{
+        font-family: $titleFamily;
+        color: $secondtextColor;
+        font-size: 36px;
+        width: 503px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .sectionRecipe_text_h3{
+        font-family: $titleFamily;
+        color: $secondtextColor;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .sectionRecipe_text_p{
+        font-family: $secondFontFamily;
+        color: $secondtextColor;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    
+        
+    .sectionRecipe_text_button1{
+        display: flex;
+        width: 144px;
+        height: 49px;
+        padding: 17px 54px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border-color: $secondtextColor;
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    
+    }
+    
+    
+    }
+     
+    
+    /*____TELEPHONE____*/
+    
+    
+    @media only screen and (max-width: 678px){
+        .sectionRecipe_img{
+            width: 350px;
+            height: 250px;
+        }
+        
+        .sectionRecipe{
+            width: 100%;
+            height: 850px;
+        }
+        
+        .sectionRecipe_{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 100px;
+        }
+        
+        .sectionRecipe_text{
+            width: 350px;
+            margin-bottom: -50px;
+        }
+       
+        .sectionRecipe_h2{
+            font-family: $titleFamily;
+            color: $secondtextColor;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+        
+        .sectionRecipe_text_h3{
+            font-family: $titleFamily;
+            color: $secondtextColor;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        
+        .sectionRecipe_text_p{
+            font-family: $secondFontFamily;
+            color: $secondtextColor;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+                    
+        }
+    
+            
+        .sectionRecipe_text_button1{
+            display: flex;
+            width: 144px;
+            height: 49px;
+            padding: 17px 54px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 8px;
+            border-color: $secondtextColor;
+            font-family: $secondFontFamily;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            cursor: pointer;
+        
+        }
+    
+    
+    }
+
+   

@@ -1,0 +1,48 @@
+.header_ {
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: $secondtextColor;
+    width: 100%;
+  }
+  
+  .header_img {
+    width: 148px;
+    height: 39px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 950px;
+  }
+  
+  .news_1, .news_2, .news_3, .news_4, .news_5 {
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .burger-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 62px;
+    margin-right: 20px;
+  }
+
+  
+  /*_____TELEPHONE_____*/
+  
+
+    
