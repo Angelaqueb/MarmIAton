@@ -10,10 +10,10 @@ html{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: $secondtextColor;
 }
 
 *{
     font-family: $secondFontFamily;
-    color: $typoColor
+    color: $primarytextColor
 }
