@@ -55,6 +55,209 @@ body {
 }
 
 /*_____TELEPHONE_____*/
+.footer {
+  width: 100%;
+  height: 375px;
+}
+
+.picto_logo {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.container_div {
+  height: 350px;
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*____picto_____*/
+.container_pictos {
+  width: 46px;
+  height: 250px;
+}
+
+.pictos {
+  margin-bottom: 25px;
+}
+
+/*____________*/
+.container_besoindaide {
+  width: 410px;
+  height: 163px;
+}
+
+.container_policies {
+  width: 410px;
+  height: 163px;
+}
+
+.container_bloc {
+  width: 470px;
+  height: 163px;
+}
+
+/*________*/
+.title_list {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.lien_simple {
+  margin-bottom: 16px;
+  font-family: "Red hat text", sans-serif;
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: normal;
+}
+
+#lien_haut_simple {
+  margin-top: 40px;
+}
+
+/*_________*/
+.title_list_pourcentage {
+  font-family: "Red hat text", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 450px;
+  height: 50px;
+}
+
+#lien_pourcentage_ {
+  font-family: "Red hat text", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/*___________*/
+.form_back {
+  background-color: #7E8967;
+  padding: 20px 40px 20px 40px;
+  color: #ffffff;
+}
+
+.form_back_2 {
+  background-color: #FFF9F9;
+  padding: 17px 50px;
+  border: none;
+}
+
+/*___IPAD___*/
+@media only screen and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+  }
+  .picto_logo {
+    display: block;
+    justify-content: center;
+  }
+  .container_pictos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 170px;
+    margin-left: 120px;
+  }
+  .pictos {
+    padding-right: 270px;
+  }
+  .footer_blocText {
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    margin-left: -330px;
+  }
+  .container_besoindaide {
+    width: 250px;
+  }
+  .container_policies {
+    width: 320px;
+  }
+  .title_list {
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .lien_simple {
+    margin-bottom: 16px;
+    font-family: "Red hat text", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: normal;
+  }
+}
+/*____TELEPHONE____*/
+@media only screen and (max-width: 678px) {
+  .footer {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+  }
+  .picto_logo {
+    display: block;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .container_pictos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 170px;
+    margin-left: 60px;
+  }
+  .pictos {
+    padding-right: 70px;
+  }
+  .footer_blocText {
+    width: 500px;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    gap: 100px 0;
+    margin-right: 10px;
+  }
+  .container_besoindaide {
+    width: 200px;
+  }
+  .container_policies {
+    width: 250px;
+  }
+  .container_bloc {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .title_list {
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .lien_simple {
+    margin-bottom: 16px;
+    font-family: "Red hat text", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: normal;
+  }
+}
 .sectionHomehero {
   margin-bottom: 50px;
 }
@@ -1653,8 +1856,10 @@ body {
   }
 }
 .sectionTips {
-  width: 100%;
+  width: 1400px;
   height: 1000px;
+  padding-left: 166px;
+  padding-right: 166px;
 }
 
 .sectionTips_container_text_h2 {
@@ -1666,6 +1871,7 @@ body {
   line-height: normal;
   text-align: center;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .sectionTips_ {
@@ -1673,13 +1879,10 @@ body {
   height: 711px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  overflow: scroll;
 }
 
 .sectionTips_container {
-  margin-right: 50px;
-  margin-left: 70px;
+  width: 430px;
 }
 
 .sectionTips_container_text_h3 {
@@ -1717,7 +1920,7 @@ body {
   line-height: normal;
   cursor: pointer;
   margin-top: 50px;
-  margin-left: 750px;
+  margin-left: 650px;
 }
 
 /*____TELEPHONE____*/
@@ -1725,6 +1928,7 @@ body {
   .sectionTips {
     width: 100%;
     height: 1300px;
+    overflow: hidden;
   }
   .sectionTips_container_text_h2 {
     font-family: "Roboto", sans-serif;
@@ -1741,7 +1945,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 166px;
     overflow: scroll;
   }
   .sectionTips_container {
@@ -1795,9 +1998,8 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    text-align: center;
     margin-top: 150px;
-    margin-left: 230px;
+    margin-left: -150px;
   }
   .sectionTips_ {
     width: 100%;
@@ -1805,12 +2007,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
     overflow: scroll;
+    margin-left: -150px;
   }
   .sectionTips_container {
     margin-right: 150px;
-    width: 550px;
+    width: 600px;
   }
   .sectionTips_container_text_h3 {
     font-family: "Roboto", sans-serif;
@@ -1845,5 +2047,101 @@ body {
     line-height: normal;
     cursor: pointer;
     margin-top: 50px;
+    margin-left: 270px;
+  }
+}
+.sectionReinsurance {
+  margin-top: 50px;
+  background-color: #7E8967;
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+  padding-right: 230px;
+  padding-left: 230px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sectionReinsurance_ {
+  display: flex;
+  justify-content: space-between;
+  width: 1260px;
+}
+
+.sectionReinsurance_container_text_footer {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  width: 200px;
+  height: 37px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+/*___IPAD___*/
+@media only screen and (max-width: 1024px) {
+  .sectionReinsurance {
+    margin-top: 50px;
+    background-color: #7E8967;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+  }
+  .sectionReinsurance_ {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: -150px;
+  }
+  .sectionReinsurance_container {
+    margin-right: 25px;
+  }
+  .sectionReinsurance_container_text_footer {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 150px;
+    height: 37px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+  }
+}
+/*____TELEPHONE____*/
+@media only screen and (max-width: 678px) {
+  .sectionReinsurance {
+    margin-top: 50px;
+    background-color: #7E8967;
+    border-radius: 20px;
+    width: 200px;
+    height: 400px;
+  }
+  .sectionReinsurance_ {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: -150px;
+    gap: 50px 0;
+  }
+  .sectionReinsurance_container_img {
+    width: 85px;
+    height: 85px;
+  }
+  .sectionReinsurance_container_text_footer {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 80px;
+    height: 37px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=main.css.map */

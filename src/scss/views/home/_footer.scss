@@ -1,0 +1,226 @@
+.footer{
+    width: 100%;
+    height: 375px;
+}
+
+.picto_logo{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.container_div{
+    height: 350px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*____picto_____*/
+.container_pictos{
+    width: 46px;
+    height: 250px;
+}
+.pictos{
+    margin-bottom: 25px;
+}
+/*____________*/
+.container_besoindaide{
+    width: 410px;
+    height: 163px;
+}
+
+.container_policies{
+    width: 410px;
+    height: 163px;
+}
+
+.container_bloc{
+    width: 470px;
+    height: 163px;
+}
+/*________*/
+
+.title_list{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-family: $titleFamily;
+    font-size: 24px ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.lien_simple{
+    margin-bottom: 16px;
+    font-family: $secondFontFamily;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: normal;
+}
+
+#lien_haut_simple{
+    margin-top: 40px;
+}
+/*_________*/
+.title_list_pourcentage{
+    font-family: $secondFontFamily;
+    font-size: 24px ;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 450px;
+    height: 50px;
+}
+
+#lien_pourcentage_{
+    font-family: $secondFontFamily;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/*___________*/
+
+.form_back{
+    background-color: $bodycolor;
+    padding: 20px 40px 20px 40px;
+    color: $secondtextColor;
+}
+
+.form_back_2{
+    background-color:  #FFF9F9;
+    padding: 17px 50px;
+    border: none;
+}
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px){
+    .footer{
+        width: 100%;
+        height: 1000px;
+        overflow: hidden;
+    }
+    
+    .picto_logo{
+        display: block;
+        justify-content: center;
+    }
+
+    .container_pictos{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 170px;
+        margin-left: 120px;
+    }
+
+    .pictos{
+        padding-right: 270px;
+    }
+
+    .footer_blocText{
+        width: 100%;
+        height: 155px;  
+        display: flex;
+        justify-content: space-around;
+        margin-top: 300px;    
+        margin-left: -330px;
+    }
+
+
+    .container_besoindaide{
+        width: 250px;
+    }
+
+    .container_policies{
+        width: 320px;
+
+    }
+
+    .title_list{
+        margin-bottom: 40px;
+        font-family: $titleFamily;
+        font-size: 22px ;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .lien_simple{
+        margin-bottom: 16px;
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-weight: 300px;
+        line-height: normal;
+    }
+}
+
+/*____TELEPHONE____*/
+    
+    
+@media only screen and (max-width: 678px){
+    .footer{
+        width: 100%;
+        height: 1000px;
+        overflow: hidden;
+    }
+    
+    .picto_logo{
+        display: block;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .container_pictos{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 170px;
+        margin-left: 60px;
+    }
+
+    .pictos{
+        padding-right: 70px;
+    }
+
+    .footer_blocText{
+        width: 500px;
+        height: 370px;  
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 200px; 
+        gap: 100px 0;  
+        margin-right: 10px; 
+    }
+
+
+    .container_besoindaide{
+        width: 200px;
+    }
+
+    .container_policies{
+        width: 250px;
+
+    }
+    .container_bloc{
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .title_list{
+        margin-bottom: 40px;
+        font-family: $titleFamily;
+        font-size: 22px ;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .lien_simple{
+        margin-bottom: 16px;
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-weight: 300px;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,113 @@
+.sectionReinsurance{
+    margin-top: 50px;
+    background-color: $bodycolor;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    padding-right:230px;
+    padding-left: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sectionReinsurance_{
+    display: flex;
+    justify-content: space-between;
+    width: 1260px;
+}
+
+.sectionReinsurance_container_text_footer{
+    font-family: $titleFamily;
+    color: $secondtextColor;
+    text-align: center;
+    width: 200px;
+    height: 37px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px){
+
+    .sectionReinsurance{
+        margin-top: 50px;
+        background-color: $bodycolor;
+        border-radius: 20px;
+        width: 550px;
+        height: 300px;
+
+    }
+    
+    .sectionReinsurance_{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin-left: -150px;
+    }
+
+    .sectionReinsurance_container{
+        margin-right: 25px;
+    }
+    
+    .sectionReinsurance_container_text_footer{
+        font-family: $titleFamily;
+        color: $secondtextColor;
+        text-align: center;
+        width: 150px;
+        height: 37px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 30px;
+    }
+}
+
+
+/*____TELEPHONE____*/
+    
+    
+@media only screen and (max-width: 678px){
+
+    .sectionReinsurance{
+        margin-top: 50px;
+        background-color: $bodycolor;
+        border-radius: 20px;
+        width: 200px;
+        height: 400px;
+
+    }
+    
+    .sectionReinsurance_{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-left: -150px;
+        gap:50px 0;
+    }
+
+    .sectionReinsurance_container_img{
+        width: 85px;
+        height: 85px;
+    }
+    .sectionReinsurance_container_text_footer{
+        font-family: $titleFamily;
+        color: $secondtextColor;
+        text-align: center;
+        width: 80px;
+        height: 37px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 30px;
+    }
+
+    
+}

@@ -1,5 +1,7 @@
 @import 'config/config';
 @import 'views/home/header';
+@import 'views/home/footer';
+//-----------------------page Home  -----------------------
 @import 'views/home/homeHero' ;
 @import 'views/home/sectionResponsive';
 @import 'views/home/sectionIa';
@@ -9,5 +11,6 @@
 @import 'views/home/sectionBalanced';
 @import 'views/home/sectionEcoresponsive';
 @import 'views/home/sectionTips';
+@import 'views/home/sectionReinsurance';
 
 //-----------------------page recette-----------------------

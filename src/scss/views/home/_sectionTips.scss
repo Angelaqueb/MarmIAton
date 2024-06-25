@@ -1,7 +1,8 @@
 .sectionTips{
-    width: 100%;
-    height: 1000px;
-    
+    width: 1400px;
+    height: 1000px;    
+    padding-left: 166px;
+    padding-right: 166px;
 }
 
 .sectionTips_container_text_h2{
@@ -13,6 +14,7 @@
     line-height: normal;
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .sectionTips_{
@@ -20,13 +22,10 @@
     height: 711px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    overflow: scroll;
 }
 
 .sectionTips_container{
-    margin-right: 50px;
-    margin-left: 70px;
+    width: 430px;
 }
 
 .sectionTips_container_text_h3{
@@ -64,7 +63,8 @@
     line-height: normal;
     cursor: pointer;
     margin-top: 50px;
-    margin-left: 750px;
+    margin-left: 650px;
+
 }
 
 /*____TELEPHONE____*/
@@ -74,6 +74,7 @@
     .sectionTips{
         width: 100%;
         height: 1300px;
+        overflow: hidden;
     }
     
     .sectionTips_container_text_h2{
@@ -92,9 +93,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-left: 166px;
         overflow: scroll;
-
     }
     
     .sectionTips_container{
@@ -158,9 +157,9 @@
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        text-align: center;
         margin-top: 150px;
-        margin-left: 230px;
+        margin-left: -150px;
+
     }
     
     .sectionTips_{
@@ -169,13 +168,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-left: 50px;
         overflow: scroll;
+        margin-left: -150px;
     }
     
     .sectionTips_container{
         margin-right: 150px;
-        width: 550px;
+        width: 600px;
         
     }
     
@@ -214,5 +213,6 @@
         line-height: normal;
         cursor: pointer;
         margin-top: 50px;
+        margin-left:270px;
     }
 }
