@@ -221,12 +221,17 @@ body {
     display: block;
     justify-content: center;
   }
+  .container_div {
+    width: 1000px;
+  }
+  .container_pictos_ {
+    margin-left: 100px;
+  }
   .container_pictos {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     width: 170px;
-    margin-left: 120px;
   }
   .pictos {
     padding-right: 270px;
@@ -237,13 +242,19 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 300px;
-    margin-left: -330px;
+    margin-left: -700px;
   }
   .container_besoindaide {
-    width: 250px;
+    width: 200px;
   }
   .container_policies {
-    width: 320px;
+    width: 180px;
+    margin-top: 300px;
+    margin-left: -400px;
+  }
+  .container_bloc {
+    margin-top: 300px;
+    width: 500px;
   }
   .title_list {
     margin-bottom: 40px;
@@ -252,7 +263,21 @@ body {
     font-weight: 600;
     text-transform: uppercase;
   }
+  .title_list_pourcentage {
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
   .lien_simple {
+    margin-bottom: 16px;
+    font-family: "Red hat text", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: normal;
+  }
+  .lien_pourcentage_ {
     margin-bottom: 16px;
     font-family: "Red hat text", sans-serif;
     font-size: 14px;
@@ -275,9 +300,9 @@ body {
   .container_pictos {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 70px;
     width: 170px;
-    margin-left: 60px;
+    margin-left: -40px;
   }
   .pictos {
     padding-right: 70px;
@@ -287,19 +312,24 @@ body {
     height: 370px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 200px;
+    margin-top: 300px;
     gap: 100px 0;
-    margin-right: 10px;
+  }
+  .container_div {
+    margin-top: -90px;
   }
   .container_besoindaide {
     width: 200px;
+    margin-right: -1000px;
   }
   .container_policies {
     width: 250px;
+    margin-left: -200px;
   }
   .container_bloc {
     width: 100%;
-    margin-left: 50px;
+    margin-left: -300px;
+    margin-top: 600px;
   }
   .title_list {
     margin-bottom: 40px;
