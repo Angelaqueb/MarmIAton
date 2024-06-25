@@ -33,16 +33,87 @@
     text-decoration: none;
   }
 
-  .burger-menu {
+  .burger_menu {
     display: none;
     cursor: pointer;
     font-size: 30px;
     margin-top: 62px;
     margin-right: 20px;
   }
+  .nav_menuResponsive{
+    display: none;
+  }
 
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px){
+
+  .burger_menu {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 62px;
+  }
+
+  .burger_icon{
+    margin-left: 800px;
+    cursor: pointer;
+  }
+
+  .nav_menu{
+    display: none;
+  }
+
+  .nav_menuResponsive{
+    display: block;
+  }
+
+  .nav_menuResponsive{
+    display: none;
+  }
+
+  .nav_menuResponsive.active{
+    width: 100%;
+    background-color: $secondtextColor;
+    position: fixed;
+    top: 100px;
+    display: block;
+  }
+
+  .newsResponsive{
+    display: block;
+    text-align: center;
+    list-style: none;
+  }
+
+  .news_1Responsive{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .news_2Responsive{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .news_3Responsive{
+    margin-bottom: 20px;
+  }
+
+  .news_4Responsive{
+    margin-bottom: 20px;
+  }
+}
   
   /*_____TELEPHONE_____*/
   
 
-    
+@media only screen and (max-width: 678px){
+
+  .burger_icon{
+    margin-left: 40px;
+    cursor: pointer;
+  }
+}

@@ -310,7 +310,8 @@
         border-radius: 8px;
         border-color: $secondtextColor;
         background-color: $bodycolor;
-        color: $secondtextColor;        font-family: $secondFontFamily;
+        color: $secondtextColor;        
+        font-family: $secondFontFamily;
         font-size: 14px;
         font-style: normal;
         font-weight: 600;
@@ -329,7 +330,7 @@
     @media only screen and (max-width: 678px){
         .sectionEcoresponsible_img{
             width: 350px;
-            height: 250px;
+            height: 330px;
         }
         
         .sectionEcoresponsible{
@@ -345,7 +346,7 @@
         
         .sectionEcoresponsible_text{
             width: 350px;
-            margin-bottom: -50px;
+            margin-bottom: -120px;
         }
        
         .sectionEcoresponsible_h2{

@@ -99,8 +99,9 @@
     .sectionResponsive{
         background-color: $bodycolor;
         width: 100%;
-        height: 155px;
-        border-radius: 20px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: -150px;
     }
     
     .sectionResponsive_{
