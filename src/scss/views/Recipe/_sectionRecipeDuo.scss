@@ -1,11 +1,14 @@
 
 .sectionRecipetDuo{
     width: 100%;
-    display: flex;
-    justify-content: space-b;
+    height: 1000px;
+    background-color: $bodycolor;
 }
+
 .sectionRecipetDuo_left{
     width: 50%;
     height: 1000px;
-    background-color:$secondtextColor;
+    background-color: $secondtextColor;
+    position: absolute;
+    top:50px;
 }

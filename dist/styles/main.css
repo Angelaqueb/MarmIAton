@@ -2239,12 +2239,14 @@ body {
 }
 .sectionRecipetDuo {
   width: 100%;
-  display: flex;
-  justify-content: space-b;
+  height: 1000px;
+  background-color: #7E8967;
 }
 
 .sectionRecipetDuo_left {
   width: 50%;
   height: 1000px;
   background-color: #ffffff;
+  position: absolute;
+  top: 50px;
 }/*# sourceMappingURL=main.css.map */
