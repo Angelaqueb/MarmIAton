@@ -584,7 +584,7 @@ body {
   }
 }
 .sectionResponsive {
-  background-color: #7E8967;
+  background-color: #ffffff;
   width: 100%;
   height: 483px;
   border-radius: 20px;
@@ -607,7 +607,7 @@ body {
 
 .sectionResponsive_text_h2 {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -616,7 +616,7 @@ body {
 
 .sectionResponsive_text_p {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-size: 26px;
   font-style: normal;
@@ -627,7 +627,6 @@ body {
 /*___IPAD___*/
 @media only screen and (max-width: 1024px) {
   .sectionResponsive {
-    background-color: #7E8967;
     width: 100%;
     height: 300px;
     border-radius: 20px;
@@ -646,7 +645,7 @@ body {
   }
   .sectionResponsive_text_h2 {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
@@ -654,7 +653,7 @@ body {
   }
   .sectionResponsive_text_p {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -669,7 +668,6 @@ body {
 /*____TELEPHONE____*/
 @media only screen and (max-width: 678px) {
   .sectionResponsive {
-    background-color: #7E8967;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -688,7 +686,7 @@ body {
   }
   .sectionResponsive_text_h2 {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -696,7 +694,7 @@ body {
   }
   .sectionResponsive_text_p {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -711,6 +709,8 @@ body {
 .sectionIa {
   width: 100%;
   height: 1000px;
+  background-color: #7E8967;
+  border-radius: 20px;
 }
 
 .sectionIa_ {
@@ -752,7 +752,7 @@ body {
 }
 
 .sectionIa_text_link {
-  color: #D45A33;
+  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -801,7 +801,7 @@ body {
     line-height: normal;
   }
   .sectionIa_text_link {
-    color: #D45A33;
+    color: #ffffff;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -848,7 +848,7 @@ body {
     line-height: normal;
   }
   .sectionIa_text_link {
-    color: #D45A33;
+    color: #ffffff;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -856,7 +856,6 @@ body {
   }
 }
 .sectionKitchen {
-  background-color: #7E8967;
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 1000px;
@@ -878,7 +877,7 @@ body {
 
 .sectionKitchen_h2 {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -887,7 +886,7 @@ body {
 
 .sectionKitchen_text_h3 {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -896,7 +895,7 @@ body {
 
 .sectionKitchen_text_p {
   font-family: "Red hat text", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -905,7 +904,7 @@ body {
 
 .sectionKitchen_text_p2 {
   font-family: "Red hat text", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -928,7 +927,9 @@ body {
   align-items: center;
   gap: 10px;
   border-radius: 8px;
-  border-color: #ffffff;
+  border-color: #7E8967;
+  color: #7E8967;
+  background-color: #ffffff;
   font-family: "Red hat text", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -1135,12 +1136,6 @@ body {
     cursor: pointer;
   }
 }
-.sectionOrange {
-  background-color: #D45A33;
-  width: 100%;
-  height: 50px;
-}
-
 .sectionRecipe {
   width: 100%;
   height: 1000px;
@@ -2237,16 +2232,149 @@ body {
     margin-top: 30px;
   }
 }
-.sectionRecipetDuo {
+.sectionRecipeDuo {
   width: 100%;
   height: 1000px;
   background-color: #7E8967;
 }
 
-.sectionRecipetDuo_left {
+.sectionRecipeDuo_left {
   width: 50%;
-  height: 1000px;
+  height: 950px;
   background-color: #ffffff;
   position: absolute;
   top: 50px;
+}
+
+.sectionRecipeDio_left_picto1 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.sectionRecipeDio_left_picto2 {
+  position: absolute;
+  top: 100px;
+  left: 90px;
+}
+
+.sectionRecipeDio_left1_img {
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+.sectionRecipeDio_left1_img.active {
+  display: none;
+}
+
+.sectionRecipeDio_right1 {
+  position: absolute;
+  bottom: 500px;
+  left: 950px;
+}
+
+.sectionRecipeDio_right1.active {
+  display: none;
+}
+
+.sectionRecipeDio_right1_p1 {
+  background-color: #FEFFFB;
+  padding: 14px 20px;
+  border-radius: 10px;
+  width: 580px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionRecipeDio_right1_p2 {
+  background-color: #1C1E19;
+  color: #ffffff;
+  text-align: right;
+  padding: 14px 20px;
+  border-radius: 10px;
+  width: 50px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 670px;
+}
+
+.sectionRecipeDio_right1_button {
+  position: absolute;
+  bottom: -500px;
+  width: 144px;
+  padding: 14px 33px 14px 27px;
+  align-items: flex-start;
+  border-radius: 8px;
+  margin-left: 330px;
+  cursor: pointer;
+}
+
+.sectionRecipeDio_left2_img {
+  margin-top: 200px;
+  margin-left: 150px;
+  display: none;
+}
+
+.sectionRecipeDio_left2_img.active {
+  display: block;
+}
+
+.sectionRecipeDio_right2 {
+  position: absolute;
+  bottom: 500px;
+  left: 950px;
+  display: none;
+}
+
+.sectionRecipeDio_right2.active {
+  display: block;
+}
+
+.sectionRecipeDio_right2_p1 {
+  background-color: #FEFFFB;
+  padding: 14px 20px;
+  border-radius: 10px;
+  width: 580px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionRecipeDio_right2_p2 {
+  background-color: #1C1E19;
+  color: #ffffff;
+  text-align: right;
+  padding: 14px 20px;
+  border-radius: 10px;
+  width: 50px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 670px;
+}
+
+.sectionRecipeDio_right2_button {
+  position: absolute;
+  bottom: -500px;
+  width: 200px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionRecipeDio_right2_button_round {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  font-size: 36px;
 }/*# sourceMappingURL=main.css.map */

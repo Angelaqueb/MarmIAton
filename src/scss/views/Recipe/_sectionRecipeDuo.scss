@@ -1,14 +1,165 @@
 
-.sectionRecipetDuo{
+.sectionRecipeDuo{
     width: 100%;
     height: 1000px;
     background-color: $bodycolor;
 }
 
-.sectionRecipetDuo_left{
+.sectionRecipeDuo_left{
     width: 50%;
-    height: 1000px;
+    height: 950px;
     background-color: $secondtextColor;
     position: absolute;
     top:50px;
+}
+//__________________________________________
+
+.sectionRecipeDio_left_picto1{
+    position: absolute;
+    top:100px;
+    left: 20px;
+}
+
+.sectionRecipeDio_left_picto2{
+    position: absolute;
+    top:100px;
+    left: 90px;
+
+}
+//______________ONE LEFT____________________
+
+
+.sectionRecipeDio_left1_img{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.sectionRecipeDio_left1_img.active{
+   display: none;
+}
+
+//______________ONE RIGHT____________________
+.sectionRecipeDio_right1{
+    position: absolute;
+    bottom:500px;
+    left: 950px;
+}
+
+.sectionRecipeDio_right1.active{
+    display: none;
+}
+
+.sectionRecipeDio_right1_p1{
+    background-color:$IAdialogue;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width:580px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionRecipeDio_right1_p2{
+    background-color:$DialogueUtilisateur;
+    color: $secondtextColor;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width:50px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 670px;
+}
+
+
+.sectionRecipeDio_right1_button{
+    position: absolute;
+    bottom: -500px;
+    width: 144px;
+    padding: 14px 33px 14px 27px;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-left: 330px;
+    cursor: pointer;
+
+
+}
+
+//__________________________________________
+//__________________________________________
+//__________________________________________
+//__________________________________________
+
+
+//________________2 LEFT____________________
+
+.sectionRecipeDio_left2_img{
+    margin-top: 200px;
+    margin-left: 150px;
+    display: none;
+}
+
+.sectionRecipeDio_left2_img.active{
+    display: block;
+}
+
+//________________2 RIGHT____________________
+
+.sectionRecipeDio_right2{
+    position: absolute;
+    bottom:500px;
+    left: 950px;
+    display: none;
+}
+
+.sectionRecipeDio_right2.active{
+    display: block;
+}
+
+.sectionRecipeDio_right2_p1{
+    background-color:$IAdialogue;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width:580px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionRecipeDio_right2_p2{
+    background-color:$DialogueUtilisateur;
+    color: $secondtextColor;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width:50px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 670px;
+}
+
+.sectionRecipeDio_right2_button{
+    position: absolute;
+    bottom: -500px;
+    width: 200px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionRecipeDio_right2_button_round{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 36px;
 }

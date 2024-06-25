@@ -1,5 +1,5 @@
 .sectionResponsive{
-    background-color: $bodycolor;
+    background-color: $secondtextColor;
     width: 100%;
     height: 483px;
     border-radius: 20px;
@@ -22,7 +22,7 @@
 
 .sectionResponsive_text_h2{
     font-family: $titleFamily;
-    color: $secondtextColor;
+    color: $primarytextColor;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
@@ -31,7 +31,7 @@
 
 .sectionResponsive_text_p{
     font-family: $titleFamily;
-    color: $secondtextColor;
+    color: $primarytextColor;
     text-align: center;
     font-size: 26px;
     font-style: normal;
@@ -44,7 +44,6 @@
 
 @media only screen and (max-width: 1024px) {
     .sectionResponsive{
-        background-color: $bodycolor;
         width: 100%;
         height: 300px;
         border-radius: 20px;
@@ -66,7 +65,7 @@
     
     .sectionResponsive_text_h2{
         font-family: $titleFamily;
-        color: $secondtextColor;
+        color: $primarytextColor;
         font-size: 36px;
         font-style: normal;
         font-weight: 900;
@@ -75,7 +74,7 @@
     
     .sectionResponsive_text_p{
         font-family: $titleFamily;
-        color: $secondtextColor;
+        color: $primarytextColor;
         text-align: center;
         font-size: 16px;
         font-style: normal;
@@ -97,7 +96,6 @@
 @media only screen and (max-width: 678px){
 
     .sectionResponsive{
-        background-color: $bodycolor;
         width: 100%;
         height: auto;
         border-radius: 10px;
@@ -119,7 +117,7 @@
     
     .sectionResponsive_text_h2{
         font-family: $titleFamily;
-        color: $secondtextColor;
+        color: $primarytextColor;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -128,7 +126,7 @@
     
     .sectionResponsive_text_p{
         font-family: $titleFamily;
-        color: $secondtextColor;
+        color: $primarytextColor;
         text-align: center;
         font-size: 14px;
         font-style: normal;
