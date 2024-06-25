@@ -2206,4 +2206,15 @@ body {
     line-height: normal;
     margin-top: 30px;
   }
+}
+.sectionRecipetDuo {
+  width: 100%;
+  display: flex;
+  justify-content: space-b;
+}
+
+.sectionRecipetDuo_left {
+  width: 50%;
+  height: 1000px;
+  background-color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
