@@ -109,24 +109,26 @@
     
     @media only screen and (max-width: 678px){
         .sectionEcoresponsible_img{
-            width: 350px;
+            width: 250px;
             height: 250px;
         }
         
         .sectionEcoresponsible{
             width: 100%;
             height: 850px;
+            padding-top: 170px;
+            border-radius: 10px 10px;
         }
         
         .sectionEcoresponsible_{
             display: flex;
             flex-direction: column-reverse;
-            padding-top: 100px;
+            padding-top: 70px;
+            gap: 150px;
         }
         
         .sectionEcoresponsible_text{
             width: 350px;
-            margin-bottom: -50px;
         }
        
         .sectionEcoresponsible_h2{

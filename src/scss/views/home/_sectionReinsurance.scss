@@ -79,7 +79,7 @@
         margin-top: 50px;
         background-color: $bodycolor;
         border-radius: 20px;
-        width: 200px;
+        width: 350px;
         height: 400px;
 
     }
@@ -87,9 +87,8 @@
     .sectionReinsurance_{
         display: flex;
         flex-wrap: wrap;
-        width: 300px;
-        margin-left: -150px;
-        gap:50px 0;
+        width: 350px;
+        gap:50px 20px;
     }
 
     .sectionReinsurance_container_img{

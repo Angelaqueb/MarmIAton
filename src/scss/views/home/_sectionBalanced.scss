@@ -128,7 +128,6 @@
         
 
     .sectionIa_text_link{
-        color: $bodytouchcolor;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -147,8 +146,9 @@
     
     @media only screen and (max-width: 678px){
         .sectionBalanced_img{
-            width: 350px;
-            height: 330px;
+            width: 300px;
+            height: 300px;
+            margin-left: -50px;
         }
         
         .sectionBalanced{
@@ -203,6 +203,7 @@
             
         .sectionIa_text_link{
             color: $bodytouchcolor;
+            font-family: $secondFontFamily;
             font-size: 12px;
             font-style: normal;
             font-weight: 400;

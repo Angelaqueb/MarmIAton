@@ -118,23 +118,17 @@
     
     .sectionTips_text_button1{
         display: flex;
-        width: 144px;
+        width: 90px;
         height: 49px;
-        padding: 17px 54px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 8px;
-        border-color: $secondtextColor;
-        background-color: $bodycolor;
-        color: $secondtextColor;
-        font-family: $secondFontFamily;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
+    }
+
+
+    .sectionTips_text_button{
+        display: flex;
+        width: 90px;
+        height: 49px;
+        margin-left: -270px;
         cursor: pointer;
-        margin-top: 50px;
     }
     
 }

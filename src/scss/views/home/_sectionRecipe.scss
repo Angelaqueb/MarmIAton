@@ -2,7 +2,7 @@
     width: 100%;
     height: 1000px;
     background-color: $bodycolor;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
     
 }
 
@@ -150,20 +150,20 @@
     .sectionRecipe_img{
         width: 530px;
         height: 490px;
-        margin-bottom:70px ;
+        margin-bottom:40px ;
     }
     
     .sectionRecipe{
         width: 100%;
         height: 1300px;
+        border-radius: 10px 10px 10px 10px;
+
     }
     
     .sectionRecipe_{
         display: flex;
         flex-direction: column;
         margin-left: 100px;
-        padding-top: 150px;
-
     }
     
     .sectionRecipe_text{
@@ -216,6 +216,7 @@
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        margin-bottom: 30px;
     
     }
     
@@ -237,7 +238,7 @@
         .sectionRecipe{
             width: 100%;
             height: 850px;
-            padding-top: 50px;
+            padding-top: 90px;
         }
         
         .sectionRecipe_{
@@ -248,7 +249,7 @@
         
         .sectionRecipe_text{
             width: 350px;
-            margin-bottom: -90px;
+            margin-bottom: -120px;
         }
        
         .sectionRecipe_h2{
