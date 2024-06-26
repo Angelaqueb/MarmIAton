@@ -60,6 +60,10 @@ body {
 
 /*___IPAD___*/
 @media only screen and (max-width: 1024px) {
+  .header_img {
+    width: 200px;
+    height: 20px;
+  }
   .burger_menu {
     display: inline-block;
     cursor: pointer;
@@ -108,6 +112,10 @@ body {
 }
 /*_____TELEPHONE_____*/
 @media only screen and (max-width: 678px) {
+  .header_img {
+    width: 120px;
+    height: 20px;
+  }
   .burger_icon {
     margin-left: 40px;
     cursor: pointer;
@@ -2812,6 +2820,20 @@ body {
 
 /*___IPAD___*/
 @media only screen and (max-width: 1024px) {
+  .sectionRecipeDio_left_picto1 {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+  }
+  .sectionRecipeDio_left_picto2 {
+    position: absolute;
+    top: 120px;
+    left: 75px;
+    width: 35px;
+    height: 35px;
+  }
   .sectionRecipeDuo {
     width: 100%;
     height: 100%;
@@ -2847,12 +2869,6 @@ body {
     width: 500px;
     height: 500px;
   }
-  .sectionRecipeDio_right1 {
-    width: 700px;
-    height: 500px;
-    margin-top: -50px;
-    margin-left: 60px;
-  }
   .sectionRecipeDio_right_button {
     width: 200px;
     height: 70px;
@@ -2861,5 +2877,673 @@ body {
     position: absolute;
     top: 470px;
     left: 400px;
+  }
+  .sectionRecipeDio_right1 {
+    width: 700px;
+    height: 500px;
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+  .sectionRecipeDio_left1_img {
+    margin-top: 200px;
+    margin-left: 250px;
+    display: none;
+  }
+}
+.sectionRecipeDio_right2 {
+  width: 700px;
+  height: 500px;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+.sectionRecipeDio_left2_img {
+  margin-top: 200px;
+  margin-left: 300px;
+  display: none;
+}
+
+.sectionRecipeDio_right3 {
+  width: 700px;
+  height: 500px;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+.sectionRecipeDio_left3_img {
+  margin-top: 200px;
+  margin-left: 350px;
+  display: none;
+}
+
+.sectionRecipeDio_right4 {
+  width: 700px;
+  height: 500px;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+.sectionRecipeDio_left4_img {
+  margin-top: 200px;
+  margin-left: 350px;
+  display: none;
+}
+
+.sectionRecipeDio_right5 {
+  width: 700px;
+  height: 500px;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+.sectionRecipeDio_left5_img {
+  margin-top: 200px;
+  margin-left: 300px;
+  display: none;
+}
+
+.sectionRecipeDio_right6 {
+  width: 700px;
+  height: 500px;
+  margin-top: -100px;
+  margin-left: 60px;
+}
+
+.sectionRecipeDio_left6_img {
+  margin-top: 200px;
+  margin-left: 350px;
+  display: none;
+}
+
+.sectionRecipeDio_right6_p3 {
+  background-color: #FEFFFB;
+  padding: 5px 20px;
+  border-radius: 10px;
+  width: 280px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionRecipeDio_right6_p3_min {
+  padding: 5px 50px;
+  border-radius: 10px;
+  border-color: #000000;
+  border: 3px solid;
+  font-size: 60px;
+}
+
+.sectionRecipeDio_right7 {
+  width: 700px;
+  height: 500px;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.sectionRecipeDio_left7_img {
+  margin-top: 200px;
+  margin-left: 250px;
+  display: none;
+}
+
+.sectionRecipeDio_p7left_button {
+  width: 144px;
+  padding: 14px 33px 14px 27px;
+  align-items: flex-start;
+  border-radius: 8px;
+  margin-right: 50px;
+  margin-left: -20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+}
+
+/*____TELEPHONE____*/
+@media only screen and (max-width: 678px) {
+  .sectionRecipeDuo {
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  .sectionRecipetDuo_rigth {
+    width: 100%;
+    height: 350px;
+    background-color: #7E8967;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+  }
+  .sectionRecipeDio_left_picto1 {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  .sectionRecipeDio_left_picto2 {
+    position: absolute;
+    top: 120px;
+    left: 65px;
+    width: 25px;
+    height: 25px;
+  }
+  .sectionRecipeDio_right0 {
+    width: 100%;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right0_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right0_p2 {
+    background-color: #1C1E19;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 350px;
+  }
+  .sectionRecipeDio_right0_button {
+    width: 90px;
+    padding: 10px 10px;
+    align-items: flex-start;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 180px;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  .sectionRecipeDio_left0_img {
+    margin-top: -120px;
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right1 {
+    width: 100%;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right1_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right1_p {
+    background-color: #1C1E19;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 350px;
+  }
+  .sectionRecipeDio_left1_img {
+    margin-top: -120px;
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_right1_button {
+    position: absolute;
+    bottom: -500px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionRecipeDio_p1left_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_p1right_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_right2 {
+    width: 100%;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right2_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right2_p2 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right2_p3 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_left2_img {
+    margin-top: -120px;
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_right2_button {
+    position: absolute;
+    bottom: -500px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionRecipeDio_p2left_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_p2right_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_right3 {
+    width: 100%;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right3_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_left3_img {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 250px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_right3_button {
+    position: absolute;
+    bottom: -500px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionRecipeDio_p3left_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_p3right_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_right4 {
+    width: 100%;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right4_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_left4_img {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 250px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_right4_button {
+    position: absolute;
+    bottom: -500px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionRecipeDio_p4left_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_p4right_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_right5 {
+    width: 100%;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right5_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_left5_img {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 250px;
+    height: 250px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_right5_button {
+    position: absolute;
+    bottom: -500px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionRecipeDio_p5left_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_p5right_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_right6 {
+    width: 100%;
+    height: 300px;
+    margin-top: -130px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right6_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right6_p2 {
+    background-color: #1C1E19;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 190px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 220px;
+  }
+  .sectionRecipeDio_right6_p3 {
+    background-color: #FEFFFB;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right6_p3_min {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border-color: #000000;
+    border: 3px solid;
+    font-size: 30px;
+  }
+  .sectionRecipeDio_left6_img {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 250px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_right6_button {
+    position: absolute;
+    bottom: -500px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionRecipeDio_p6left_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_p6right_button_round {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+  }
+  .sectionRecipeDio_right7 {
+    width: 100%;
+    height: 300px;
+    margin-top: -130px;
+    margin-left: -40px;
+  }
+  .sectionRecipeDio_right7_p1 {
+    background-color: #FEFFFB;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 370px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sectionRecipeDio_right7_p2 {
+    background-color: #1C1E19;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 360px;
+  }
+  .sectionRecipeDio_right7_p3 {
+    background-color: #1C1E19;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 220px;
+  }
+  .sectionRecipeDio_right7_p3_min {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border-color: #000000;
+    border: 3px solid;
+    font-size: 30px;
+  }
+  .sectionRecipeDio_left7_img {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 250px;
+    height: 300px;
+  }
+  .sectionRecipeDio_right_button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .sectionRecipeDio_p7left_button {
+    width: 90px;
+    padding: 10px 15px 10px 15px;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-left: -20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    margin-left: -100px;
+    margin-right: 150px;
   }
 }/*# sourceMappingURL=main.css.map */

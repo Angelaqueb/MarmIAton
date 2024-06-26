@@ -50,6 +50,11 @@
 
 @media only screen and (max-width: 1024px){
 
+  .header_img{
+    width: 200px;
+    height: 20px;
+  }
+
   .burger_menu {
     display: inline-block;
     cursor: pointer;
@@ -111,6 +116,10 @@
   
 
 @media only screen and (max-width: 678px){
+  .header_img{
+    width: 120px;
+    height: 20px;
+  }
 
   .burger_icon{
     margin-left: 40px;
