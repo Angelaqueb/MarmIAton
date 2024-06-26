@@ -77,4 +77,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-//_______________________Page recette  Responsive Ipad __________________________________

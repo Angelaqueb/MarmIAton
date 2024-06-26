@@ -1,28 +1,30 @@
-
 .sectionRecipeDuo{
     width: 100%;
-    height: 1000px;
-    background-color: $bodycolor;
+    height: 100%;
+    justify-content: space-between;
+    background-color: $secondtextColor;
 }
 
-.sectionRecipeDuo_left{
+.sectionRecipetDuo_rigth{
     width: 50%;
     height: 950px;
-    background-color: $secondtextColor;
+    background-color: $bodycolor;
     position: absolute;
-    top:50px;
+    left: 50%;
+    top:0px
 }
+
 //__________________________________________
 
 .sectionRecipeDio_left_picto1{
     position: absolute;
-    top:100px;
+    top:120px;
     left: 20px;
 }
 
 .sectionRecipeDio_left_picto2{
     position: absolute;
-    top:100px;
+    top:120px;
     left: 90px;
 
 }
@@ -40,23 +42,16 @@
 
 //______________0 RIGHT____________________
 .sectionRecipeDio_right0{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
+    
 }
 
 .sectionRecipeDio_rightO.active{
     display: none;
 }
 
-.sectionRecipeDio_right_button{
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    position: absolute;
-    top:650px;
-    left: 300px;
-}
 
 .sectionRecipeDio_right0_p1{
     background-color:$IAdialogue;
@@ -85,13 +80,12 @@
 
 
 .sectionRecipeDio_right0_button{
-    position: absolute;
-    bottom: -500px;
     width: 144px;
     padding: 14px 33px 14px 27px;
     align-items: flex-start;
     border-radius: 8px;
     margin-left: 330px;
+    margin-top: 500px;
     cursor: pointer;
 
 }
@@ -117,9 +111,9 @@
 //________________1 RIGHT____________________
 
 .sectionRecipeDio_right1{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -152,17 +146,24 @@
     margin-left: 670px;
 }
 
-.sectionRecipeDio_right1_button{
+.sectionRecipeDio_right_button{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
-    bottom: -500px;
+    top: 850px;
+    left: 350px;
+}
+
+.sectionRecipeDio_right1_button{
     width: 200px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-left: 300px;
+    line-height: normal;   
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 
@@ -203,10 +204,9 @@
 //________________2 RIRGHT____________________
 
 .sectionRecipeDio_right2{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
-    top:200px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -296,10 +296,9 @@
 //________________3 RIRGHT____________________
 
 .sectionRecipeDio_right3{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
-    top:200px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -369,10 +368,9 @@
 //________________4 RIRGHT____________________
 
 .sectionRecipeDio_right4{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
-    top:200px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -442,10 +440,9 @@
 //________________5 RIRGHT____________________
 
 .sectionRecipeDio_right5{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
-    top:200px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -466,8 +463,6 @@
 
 
 .sectionRecipeDio_right5_button{
-    position: absolute;
-    bottom: -500px;
     width: 200px;
     font-size: 20px;
     font-style: normal;
@@ -515,10 +510,9 @@
 //________________6 RIRGHT____________________
 
 .sectionRecipeDio_right6{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
-    top:200px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -574,8 +568,6 @@
 }
 
 .sectionRecipeDio_right6_button{
-    position: absolute;
-    bottom: -500px;
     width: 200px;
     font-size: 20px;
     font-style: normal;
@@ -623,10 +615,9 @@
 //________________7 RIRGHT____________________
 
 .sectionRecipeDio_right7{
-    position: absolute;
-    bottom:500px;
-    left: 950px;
-    top:200px;
+    margin-bottom:500px;
+    height: 990px;
+    padding: 150px 50px;
     display: none;
 }
 
@@ -662,45 +653,92 @@
 
 
 .sectionRecipeDio_right7_button{
-    position: absolute;
-    bottom: -500px;
-    width: 200px;
+    width: 1000px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 300px;
     display: flex;
     justify-content: space-between;
 }
 
 
 .sectionRecipeDio_p7left_button{
+    width: 144px;
+    padding: 14px 33px 14px 27px;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color: $secondtextColor;
+    color: $primarytextColor;
+    font-size: 18px;
+}
+
+/*___IPAD___*/
+
+
+@media only screen and (max-width: 1024px){
+    .sectionRecipeDuo{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: $secondtextColor;
+}
+
+.sectionRecipetDuo_rigth{
+    width: 100%;
+    height: 600px;
+    background-color: $bodycolor;
     position: absolute;
-    bottom: -500px;
+    top:750px;
+    left:0px;
+}
+
+//_________________________________0
+
+.sectionRecipeDio_right0{
+    width: 700px;
+    height: 500px;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.sectionRecipeDio_right0_button{
     width: 144px;
     padding: 14px 33px 14px 27px;
     align-items: flex-start;
     border-radius: 8px;
     margin-left: 330px;
+    margin-top: 200px;
     cursor: pointer;
-    background-color: $secondtextColor;
-    color: $primarytextColor;
-    font-size: 36px;
+
 }
 
+.sectionRecipeDio_left0_img{
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 500px;
+    height: 500px;
+}
+//_________________________________1
+.sectionRecipeDio_right1{
+    width: 700px;
+    height: 500px;
+    margin-top: -50px;
+    margin-left: 60px;
+}
 
-.sectionRecipeDio_p7right_button{
+.sectionRecipeDio_right_button{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
-    bottom: -500px;
-    width: 144px;
-    padding: 14px 33px 14px 27px;
-    align-items: flex-start;
-    border-radius: 8px;
-    margin-left: 330px;
-    cursor: pointer;
-    background-color: $secondtextColor;
-    color: $primarytextColor;
-    font-size: 36px;
+    top: 470px;
+    left: 400px;
 
 }
+
+}
+
