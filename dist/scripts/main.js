@@ -6,7 +6,8 @@ burgerButton.addEventListener('click', function(){
     menu.classList.toggle('active')
 })
 
-//_______________________Page recette début puis slide 1__________________________________
+//_______________________Page recette  slide __________________________________
+
 document.addEventListener('DOMContentLoaded', function() {
     const pagesLeft = [
         document.querySelector('.sectionRecipeDio_left0_img'),
@@ -74,3 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+//_______________________Page recette  Responsive Ipad __________________________________

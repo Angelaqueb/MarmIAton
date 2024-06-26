@@ -535,8 +535,43 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 40px;
 }
 
+.sectionRecipeDio_right6_p2{
+    background-color:$DialogueUtilisateur;
+    color: $secondtextColor;
+    padding: 14px 20px;
+    border-radius: 10px;
+    text-align: right;
+    width:280px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 450px;
+    margin-bottom: 40px;
+
+}
+
+.sectionRecipeDio_right6_p3{
+    background-color:$IAdialogue;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width:280px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionRecipeDio_right6_p3_min{
+    padding: 20px 50px;
+    border-radius: 10px;
+    border-color:$primarytextColor ;
+    border: 3px solid;
+    font-size: 60px;
+}
 
 .sectionRecipeDio_right6_button{
     position: absolute;
@@ -608,6 +643,21 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.sectionRecipeDio_right7_p2{
+    background-color:$DialogueUtilisateur;
+    color: $secondtextColor;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width:60px ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 670px;
+    text-align: right;
+
 }
 
 
