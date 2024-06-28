@@ -1,0 +1,79 @@
+.popin{
+    width: 585px;
+    height: 700px;
+    background-color: $secondtextColor;
+    border-radius: 20px;
+    border-color: $bodycolor;
+    border: 1px solid;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 600px;
+    display: none;
+}
+
+
+.popin.active{
+    display: block;
+}
+
+.popin_{
+    display:flex ;
+    flex-direction: column;
+}
+
+.popin_container1_X{
+    margin-left: 550px;
+}
+
+.popin_container1_img{
+    width: 83px;
+    height: 11px;
+    margin-left: 250px;
+}
+
+.popin_container1_titre{
+    font-family: $titleFamily;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: center;
+}
+
+.popin_container1_p{
+    font-family: $secondFontFamily;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.popin_container2{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.popin_img{
+    margin-right: 30px;
+}
+
+.popin_container2_button{
+    display: flex;
+    width: 200px;
+    height: 60px;
+    padding: 20px 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    border-radius: 8px;
+    border-color: $bodycolor;
+    background-color: $bodycolor;
+    color: $secondtextColor;
+    margin-left: 180px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
