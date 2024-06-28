@@ -134,9 +134,7 @@
         line-height: normal;
 
     }
-
   
-   
 }
        
      
@@ -144,72 +142,70 @@
     /*____TELEPHONE____*/
     
     
-    @media only screen and (max-width: 678px){
-        .sectionBalanced_img{
-            width: 300px;
-            height: 300px;
-            margin-left: -50px;
-        }
-        
-        .sectionBalanced{
-            width: 100%;
-            height: 850px;
-        }
-        
-        .sectionBalanced_{
-            display: flex;
-            flex-direction: column-reverse;
-            padding-top: 100px;
-        }
-        
-        .sectionBalanced_text{
-            width: 350px;
-            margin-bottom: -50px;
-        }
-       
-        .sectionBalanced_h2{
-            font-family: $titleFamily;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 900;
-            line-height: normal;
-        }
-        
-        .sectionBalanced_text_h3{
-            font-family: $titleFamily;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-        }
-        
-        .sectionBalanced_text_p{
-            font-family: $secondFontFamily;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-                    
-        }
-        
-        .sectionBalanced_text_p2{
-            font-family: $secondFontFamily;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-        
-        }
-            
-        .sectionIa_text_link{
-            color: $bodytouchcolor;
-            font-family: $secondFontFamily;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-        }
-    
+ @media only screen and (max-width: 678px){
+    .sectionBalanced_img{
+        width: 300px;
+        height: 300px;
+        margin-left: -50px;
     }
+        
+    .sectionBalanced{
+        width: 100%;
+        height: 850px;
+    }
+        
+    .sectionBalanced_{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+        
+    .sectionBalanced_text{
+        width: 350px;
+        margin-bottom: -50px;
+    }
+       
+    .sectionBalanced_h2{
+        font-family: $titleFamily;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+        
+    .sectionBalanced_text_h3{
+        font-family: $titleFamily;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+        
+    .sectionBalanced_text_p{
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;            
+    }
+        
+    .sectionBalanced_text_p2{
+        font-family: $secondFontFamily;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+            
+    .sectionIa_text_link{
+        color: $bodytouchcolor;
+        font-family: $secondFontFamily;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
 
    

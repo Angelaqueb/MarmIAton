@@ -24,6 +24,7 @@ a {
   z-index: 1;
   background-color: #ffffff;
   width: 100%;
+  top: 0;
 }
 
 .header_img {
@@ -1117,10 +1118,13 @@ a {
     font-weight: 400;
     line-height: normal;
   }
+  .sectionKitchen_text_buttons {
+    width: 250px;
+  }
   .sectionKitchen_text_button1 {
     display: flex;
-    width: 144px;
-    height: 49px;
+    width: 90px;
+    height: 40px;
     padding: 17px 54px;
     justify-content: center;
     align-items: center;
@@ -1136,8 +1140,8 @@ a {
   }
   .sectionKitchen_text_button2 {
     display: flex;
-    width: 144px;
-    height: 49px;
+    width: 90px;
+    height: 40px;
     padding: 17px 54px;
     justify-content: center;
     align-items: center;
@@ -1394,8 +1398,8 @@ a {
   }
   .sectionRecipe_text_button1 {
     display: flex;
-    width: 144px;
-    height: 49px;
+    width: 90px;
+    height: 40px;
     padding: 17px 54px;
     justify-content: center;
     align-items: center;
@@ -1929,11 +1933,15 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: -50px;
+  }
+  .sectionEcoresponsible_text_buttons {
+    width: 250px;
   }
   .sectionEcoresponsible_text_button1 {
     display: flex;
-    width: 144px;
-    height: 49px;
+    width: 90px;
+    height: 40px;
     padding: 17px 54px;
     justify-content: center;
     align-items: center;
@@ -1949,8 +1957,8 @@ a {
   }
   .sectionEcoresponsible_text_button2 {
     display: flex;
-    width: 144px;
-    height: 49px;
+    width: 90px;
+    height: 40px;
     padding: 17px 54px;
     justify-content: center;
     align-items: center;
@@ -2132,8 +2140,8 @@ a {
   }
   .sectionTips_text_button1 {
     display: flex;
-    width: 144px;
-    height: 49px;
+    width: 90px;
+    height: 40px;
     padding: 17px 54px;
     justify-content: center;
     align-items: center;
