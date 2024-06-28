@@ -13,6 +13,15 @@
     padding-top: 215px;
 }
 
+.sectionBalanced_img{
+    transition: all 0.5s linear;
+    filter: grayscale(50%)
+}
+
+.sectionBalanced_img:hover{
+    filter: grayscale(0%)
+}
+
 .sectionBalanced_text{
     width: 669px;
 }

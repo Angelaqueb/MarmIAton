@@ -16,6 +16,16 @@
     padding-top: 200px;
 }
 
+
+.sectionRecipe_img{
+    transition: all 0.5s linear;
+    filter: grayscale(50%)
+}
+
+.sectionRecipe_img:hover{
+    filter: grayscale(0%)
+}
+
 .sectionRecipe_text{
     width: 669px;
 }

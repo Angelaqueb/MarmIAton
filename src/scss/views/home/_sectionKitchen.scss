@@ -14,6 +14,16 @@
     padding-top: 215px;
 }
 
+.sectionKitchen_img{
+    transition: all 0.5s linear;
+    filter: grayscale(50%)
+}
+
+.sectionKitchen_img:hover{
+    filter: grayscale(0%)
+}
+
+
 .sectionKitchen_text{
     width: 669px;
 }

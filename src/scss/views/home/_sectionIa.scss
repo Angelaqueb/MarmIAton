@@ -16,6 +16,16 @@
     padding-top: 140px;
 }
 
+.sectionIa_img{
+    transition: all 0.5s linear;
+    filter: grayscale(30%)
+}
+
+.sectionIa_img:hover{
+    filter: grayscale(0%)
+}
+
+
 .sectionIa_text{
     width: 669px;
 }
