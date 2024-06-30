@@ -49,6 +49,61 @@
   <!--HEADER FIN-->
      <body>
         <main>
+          <!--pop in 1-->
+      <div class="popin">
+        <div class="popin_">
+          <div class="popin_container1">
+            <p class="popin_container1_X">X</p>
+            <img class="popin_container1_img" src="../dist/images/Logo.png" alt="logo">
+            <p class="popin_container1_titre">
+              Choisissez vos préférence simplement.
+            </p>
+            <p class="popin_container1_p">
+              Deux clics suffisent.
+            </p>
+          </div>
+          <div class="popin_container2">
+            <img class="popin_img" src="dist/images/Femme.png" alt="logo">
+            <img class="popin_img" src="dist/images/homme.png" alt="logo">
+          </div>
+          <button class="popin_container2_button">Confirmer</button>
+        </div>
+      </div>
+      <!--Fin pop in 1-->
+      <!--pop in 2-->
+      <div class="popin2">
+        <div class="popin2_">
+          <div class="popin2_container1">
+            <p class="popin2_container1_X">X</p>
+            <img class="popin2_container1_img" src="../dist/images/Logo.png" alt="logo">
+            <p class="popin2_container1_titre">
+              Inscrivez-vous,simplement.
+            </p>
+            <p class="popin2_container1_p">
+              Deux clics suffisent.
+            </p>
+          </div>
+          <form method="post">
+            <div class="txt_field">
+              <input type="text" required>
+              <span></span>
+              <label>Username</label>
+            </div>
+            <div class="txt_field">
+              <input type="password" required>
+              <span></span>
+              <label>Password</label>
+              </div>
+            <div class="pass">Lupa Password?</div>
+            <input class="input2" type="submit" value="Se connecter">
+            <div class="signup_link">
+              Se connecter avec Google<a href="#">Gmail</a>
+            </div>
+          </form>
+                     
+        </div>
+      </div>
+      <!--Fin pop in 2-->
           <div class="sectionRecipeDuo"></div>
             <!--Gauche-->
             <div class="sectionRecipeDuo_left">
@@ -225,5 +280,8 @@
     </body>
 
   <script src="../dist/scripts/main.js"></script>
-
+  <!--recette js-->
+  <script src="../dist/scripts/recipe.js"></script>
+  <!--popin js-->
+  <script src="../dist/scripts/popin.js"></script>
 </html>
