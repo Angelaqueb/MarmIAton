@@ -74,9 +74,15 @@
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
-    margin-top: 50px;
-
+    margin-top: 50px
 }
+
+.sectionRecipe_text_button1:hover{
+    transition: all 0.5s linear;
+    background-color: $bodycolor;
+    color: $secondtextColor;
+}
+
 /*____TELEPHONE____*/
     
     
@@ -147,6 +153,12 @@
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
+}
+
+.sectionRecipe_text_button1:hover{
+    transition: all 0.5s linear;
+    background-color: $bodycolor;
+    color: $secondtextColor;
 }
 
 }
@@ -241,6 +253,8 @@
         height: 300px;
         margin-top: 120px;
         margin-left: -50px;
+        height: auto;
+        min-width: 100%;
     }
             
     .sectionRecipe{
@@ -258,6 +272,8 @@
     .sectionRecipe_text{
         width: 350px;
         margin-bottom: -120px;
+        height: auto;
+        min-width: 100%;
     }
         
     .sectionRecipe_h2{

@@ -1,5 +1,6 @@
 .sectionHomehero{
     margin-bottom: 50px;
+    position: relative;
 }
 .sectionHomehero_img{
     position: relative;
@@ -10,7 +11,7 @@
 
 .sectionHomehero_{
     position: absolute;
-    bottom: 200px;
+    bottom: 450px;
     left: 166px;
     width: 600px;
     height:588px;
@@ -80,6 +81,18 @@
     line-height: normal;
     cursor: pointer;
 
+}
+
+.sectionHomehero_text_button1:hover{
+    transition: all 0.5s linear;
+    background-color: gray;
+    color: $secondtextColor;
+}
+
+.sectionHomehero_text_button2:hover{
+    transition: all 0.5s linear;
+    background-color: $secondtextColor;
+    color: $primarytextColor;
 }
 
 /*___IPAD___*/
@@ -267,3 +280,5 @@
     }
         
 }
+
+

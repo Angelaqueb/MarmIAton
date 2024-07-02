@@ -43,6 +43,11 @@
         height: 300px;
 
     }
+
+    .sectionReinsurance_container_img{
+        width: 150px;
+        height: 150px;
+    }
     
     .sectionReinsurance_{
         display: flex;
@@ -52,7 +57,7 @@
     }
 
     .sectionReinsurance_container{
-        margin-right: 25px;
+        margin-right: 50px;
     }
     
     .sectionReinsurance_container_text_footer{
@@ -87,7 +92,7 @@
     .sectionReinsurance_{
         display: flex;
         flex-wrap: wrap;
-        width: 350px;
+        width: 400px;
         gap:50px 20px;
     }
 

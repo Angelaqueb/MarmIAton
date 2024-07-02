@@ -8,7 +8,8 @@
     position: absolute;
     z-index: 1;
     top: 200px;
-    left: 600px;
+    left: 50%;
+    transform: translateX(-50%);
     display: none;
 }
 
@@ -29,7 +30,7 @@
 .popin_container1_img{
     width: 83px;
     height: 11px;
-    margin-left: 250px;
+    margin-left:250px;
 }
 
 .popin_container1_titre{
@@ -77,3 +78,62 @@
     cursor: pointer;
 }
 
+
+
+/*____TELEPHONE____*/
+    
+    
+@media only screen and (max-width: 678px){
+    .popin{
+        width: 385px;
+        height: 500px;
+        display: none;
+    }
+    
+    
+    .popin.active{
+        display: block;
+    }
+    
+    
+    .popin_container1_X{
+        margin-left: 350px;
+    }
+    
+    .popin_container1_img{
+        width: 43px;
+        height: 8px;
+        margin-left: 180px;
+    }
+    
+    .popin_container1_titre{
+        font-family: $titleFamily;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .popin_container2{
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .popin_img{
+        margin-right: 25px;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .popin_container2_button{
+        display: flex;
+        width: 100px;
+        height: 40px;
+        padding: 14px 50px;
+        margin-left: 150px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+}

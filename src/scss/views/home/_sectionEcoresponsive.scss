@@ -114,6 +114,18 @@
     margin-top: 50px;
 
 }
+
+.sectionEcoresponsible_text_button1:hover{
+    transition: all 0.5s linear;
+    background-color: $bodycolor;
+    color: $secondtextColor;
+}
+
+.sectionEcoresponsible_text_button2:hover{
+    transition: all 0.5s linear;
+    background-color: $secondtextColor;
+    color: $bodycolor;
+}
 /*____TELEPHONE____*/
     
     
@@ -341,6 +353,8 @@
         width: 350px;
         height: 350px;
         margin-top: 10px;
+        height: auto;
+        min-width: 100%;
     }
         
     .sectionEcoresponsible{
@@ -357,6 +371,8 @@
     .sectionEcoresponsible_text{
         width: 350px;
         margin-bottom: -150px;
+        height: auto;
+        min-width: 100%;
     }
        
     .sectionEcoresponsible_h2{

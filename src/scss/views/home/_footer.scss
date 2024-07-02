@@ -101,6 +101,7 @@
         width: 100%;
         height: 1000px;
         overflow: hidden;
+        padding: 30px;
     }
     
     .picto_logo{
@@ -132,7 +133,7 @@
         display: flex;
         justify-content: space-around;
         margin-top: 300px;    
-        margin-left: -700px;
+        margin-left: -800px;
     }
 
 
@@ -150,6 +151,7 @@
     .container_bloc{
         margin-top: 300px;
         width:500px ;
+        margin-left: 50px;
     }
     .title_list{
         margin-bottom: 40px;
@@ -175,10 +177,11 @@
         line-height: normal;
     }
 
-    .lien_pourcentage_{
-        margin-bottom: 16px;
+    #lien_pourcentage_{
+        margin-bottom: 35px;
+        width: 450px;
         font-family: $secondFontFamily;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 300px;
         line-height: normal;
     }
@@ -238,7 +241,7 @@
     }
     .container_bloc{
         width: 100%;
-        margin-left: -300px;
+        margin-left: -280px;
         margin-top: 600px;
     }
 
@@ -256,5 +259,19 @@
         font-size: 14px;
         font-weight: 300px;
         line-height: normal;
+    }
+
+    #lien_pourcentage_{
+        font-size: 16px;
+        width: 450px;
+        margin-left: -20px;
+    }
+
+    .title_list_pourcentage{
+        margin-left: -20px;
+    }
+
+    .form{
+        margin-left: -20px;
     }
 }

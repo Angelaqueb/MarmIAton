@@ -156,6 +156,8 @@
         width: 300px;
         height: 300px;
         margin-left: -50px;
+        height: auto;
+        min-width: 100%;
     }
         
     .sectionBalanced{
@@ -172,6 +174,8 @@
     .sectionBalanced_text{
         width: 350px;
         margin-bottom: -50px;
+        height: auto;
+        min-width: 100%;
     }
        
     .sectionBalanced_h2{

@@ -8,7 +8,8 @@
     position: absolute;
     z-index: 1;
     top: 200px;
-    left: 600px;
+    left: 50%;
+    transform: translateX(-50%);
     display: none;
 }
 
@@ -67,54 +68,54 @@
 }
 
 form .txt_field{
-position: relative;
-border-bottom: 2px solid #adadad;
-width: 310px;
-margin: 80px 130px;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    width: 310px;
+    margin: 80px 130px;
 }
 
 txt_field input{
-width: 50%;
-padding: 0 5px; height: 40px; font-size: 16px;
-border: none;
-background: none;
+    width: 50%;
+    padding: 0 5px; height: 40px; font-size: 16px;
+    border: none;
+    background: none;
 } 
 
 .txt_field label{
-position: absolute;
-top: 0px; left: 5px;
-color: #adadad;
-transform: translater(-50%); font-size: 16px; pointer-events: none;
-transition: 5s; 
+    position: absolute;
+    top: 0px; left: 5px;
+    color: #adadad;
+    transform: translater(-50%); font-size: 16px; pointer-events: none;
+    transition: 5s; 
 } 
 
 .txt_field span:before{
-content:"";
-position: absolute;
-top: 40px; 
-left: 0; 
-width: 0%; 
-height: 2px;
-background: #2691d9; 
-transition: 5s;
+    content:"";
+    position: absolute;
+    top: 40px; 
+    left: 0; 
+    width: 0%; 
+    height: 2px;
+    background: #2691d9; 
+    transition: 5s;
 }
 
 
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ labelf {
-top:5px;
-color: #2691d9;
+    top:5px;
+    color: #2691d9;
 }
 
 txt_field input:focus ~ span::before,
-txt_field input:valid ~ span::beforet {
-width: 100%;
+txt_field input:valid ~ span::before {
+    width: 100%;
 }
 
 .pass{
-margin-left:-140px;
-cursor:pointer;
-color: $bodycolor;
+    margin-left:-140px;
+    cursor:pointer;
+    color: $bodycolor;
 }
 
 .pass:hover{
@@ -156,3 +157,68 @@ text-decoration: none;
     text-decoration: underline;
 } 
 
+
+
+/*____TELEPHONE____*/
+    
+    
+@media only screen and (max-width: 678px){
+    .popin2{
+        width: 385px;
+        height: 500px;
+        display: none;
+    }
+    
+    
+    .popin2.active{
+        display: block;
+    }
+    
+    
+    .popin2_container1_X{
+        margin-left: 350px;
+    }
+    
+    .popin2_container1_img{
+        width: 43px;
+        height: 8px;
+        margin-left: 180px;
+    }
+    
+    .popin2_container1_titre{
+        font-family: $titleFamily;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .popin2_container2{
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .popin2_img{
+        margin-right: 25px;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .input2{
+        display: flex;
+        width: 100px;
+        height: 40px;
+        padding: 10px 10px;
+        margin-left: 150px;
+        margin-top: -80px;
+        cursor: pointer;
+    }
+
+    form .txt_field{
+        width: 150px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+    }
+}

@@ -113,6 +113,18 @@
 
 }
 
+.sectionKitchen_text_button1:hover{
+    transition: all 0.5s linear;
+    background-color: $bodycolor;
+    color: $secondtextColor;
+}
+
+.sectionKitchen_text_button2:hover{
+    transition: all 0.5s linear;
+    background-color: $secondtextColor;
+    color: $bodycolor;
+}
+
 /*___IPAD___*/
 
 
@@ -225,7 +237,10 @@
     .sectionKitchen_img{
         width: 350px;
         height: 250px;
+        margin: auto;
+        min-width: 100%;
     }
+    
             
     .sectionKitchen{
         width: 100%;
@@ -241,6 +256,9 @@
     .sectionKitchen_text{
         width: 350px;
         margin-bottom: -50px;
+        height: auto;
+        min-width: 100%;
+    
     }
         
     .sectionKitchen_h2{
